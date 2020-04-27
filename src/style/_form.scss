@@ -1,0 +1,47 @@
+.form-dev{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form > input{
+    text-align: center;
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+form > input:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.btn-dev{
+    margin-top: 7px;
+    width: 100%;
+
+}
+
+.submit-btn{
+    margin-left: 40%;
+    padding: 6px;
+    width: 4.5em;
+    border-radius: 8px;
+    background-color: rgb(201, 192, 211);
+    color: black;
+    transition: .7s ease-in-out;
+
+}
+
+.submit-btn:hover{
+    background-color:rgb(172, 148, 199) ;
+}
